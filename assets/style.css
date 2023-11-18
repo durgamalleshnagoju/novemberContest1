@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: #ffff;
+}
+#navbarNav{
+    justify-content: flex-end;
+}
+nav.navbar{
+    background: #FCAF02;
+}
+.leftBanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.jeffImage img{
+    width: 100%
+}
+.banner{
+    padding: 30px;
+}
+.button{
+    background: #fcaf02;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+    padding: 10px 70px;
+    border-radius: 25px;
+}
+.button a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 20px;
+}
+.form .label100{
+    position: relative;
+    margin: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.form .label50{
+    position: relative;
+    width: 48%;
+}
+.form input{
+    position: absolute;
+    left: 0;
+    right:0;
+    background: #0000;
+    border: 2px solid #fcaf02;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.banner .para p{
+    text-align: justify;
+}
+.submit input{
+    background: #fcaf02;
+    width: fit-content;
+    margin: auto;
+    
+}
+.submit{
+    margin: 30px;
+}
